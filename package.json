@@ -28,13 +28,19 @@
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@angular-devkit/build-angular": "^20.0.5",
+=======
+>>>>>>> 4242c85ba364431fc51f4f8241b952297e4861b8
     "@angular/build": "^20.0.2",
     "@angular/cli": "^20.0.2",
     "@angular/compiler-cli": "^20.0.0",
     "@angular/localize": "^20.0.0",
     "@types/jasmine": "~5.1.0",
+<<<<<<< HEAD
     "angular-cli-ghpages": "^2.0.3",
+=======
+>>>>>>> 4242c85ba364431fc51f4f8241b952297e4861b8
     "jasmine-core": "~5.7.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
