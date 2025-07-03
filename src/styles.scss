@@ -1,0 +1,39 @@
+@use 'bootstrap/scss/bootstrap';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-container{
+    width: 90% !important;
+    margin: 0 auto !important;
+}
+
+.bg-yellow{
+    background: #F5C61C;
+    color: #000;
+}
+
+.text-grey{
+    color: #d1d1d1;
+}
+
+.text-yellow{
+    color: #F5C61C;
+;
+}
+
+.btn-yellow{
+    background: #F5C61C;
+}
+
+.btn-yellow:hover{
+    background: #d9ae13;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}

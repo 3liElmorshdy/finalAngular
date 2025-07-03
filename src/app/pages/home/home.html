@@ -1,0 +1,9 @@
+<header class="simple-header d-flex flex-column align-items-center py-4">
+  <img src="/assets/logo.png" alt="Movie App Logo" style="height: 48px; width: auto;" />
+  <form class="search-bar d-flex mt-3 w-100 justify-content-center" style="max-width: 420px;" (submit)="onSearch($event)">
+    <input type="text" class="form-control me-2" placeholder="Search for movies..." style="flex:1; min-width:0;" [(ngModel)]="searchTerm" name="searchTerm">
+    <button type="submit" class="btn btn-warning">Search</button>
+  </form>
+</header>
+
+<app-movies></app-movies>

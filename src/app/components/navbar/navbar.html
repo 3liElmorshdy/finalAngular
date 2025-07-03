@@ -1,0 +1,23 @@
+<nav class="navbar navbar-light bg-yellow thin-light-border py-2">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <span class="navbar-brand fw-bold" style="font-size: 1.1rem;">Movie App</span>
+    <div class="d-flex align-items-center gap-3">
+      <div class="dropdown">
+        <button class="btn btn-link dropdown-toggle text-dark p-0" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          En
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+          <li><a class="dropdown-item" href="#">En</a></li>
+          <li><a class="dropdown-item" href="#">Ar</a></li>
+          <li><a class="dropdown-item" href="#">Fr</a></li>
+          <li><a class="dropdown-item" href="#">Zh</a></li>
+        </ul>
+      </div>
+      <a routerLink="/watchlist" class="btn btn-link text-dark d-flex align-items-center gap-1 p-0">
+        <fa-icon [icon]="faHeartSolid" class="fs-5"></fa-icon>
+        <span class="fw-normal">wishlist</span>
+        <span *ngIf="count() > 0" class="badge bg-dark ms-1">{{ count() }}</span>
+      </a>
+    </div>
+  </div>
+</nav>
