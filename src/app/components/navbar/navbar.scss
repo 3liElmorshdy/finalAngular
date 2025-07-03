@@ -1,0 +1,50 @@
+.logo{
+    &:hover,
+  &:focus,
+  &:active {
+    color: #000;
+  }
+}
+
+.bg-yellow {
+  background-color: #f5c61c !important;
+}
+
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid #f5c61c22;
+}
+
+.navbar-brand {
+  color: #222 !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.btn-link:hover, .btn-link:focus {
+  color: #111;
+  text-decoration: underline;
+}
+
+.dropdown-toggle::after {
+  margin-left: 0.3em;
+}
+
+.badge.bg-dark {
+  background: #000 !important;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 0.3em 0.6em;
+  border-radius: 1em;
+}
+
+.thin-light-border {
+  border-bottom: 1px solid #f5c61c22 !important;
+}
